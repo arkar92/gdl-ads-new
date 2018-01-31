@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">    
+    <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    
+    <style>
+        #hero-bg{
+            
+            background-attachment: fixed;
+            background: 
+            /* top, transparent red */ 
+            linear-gradient(
+              rgba(32,156,238, 0.75), 
+              rgba(32,156,238, 0.75)
+            ),
+            /* bottom, image */
+            url(img/gdl-home-hero-cover.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+           
+        }
+    </style>
+    
+</head>
+
+<body>
+
+<!-- Home Page Hero Header -->
+    <section class="hero is-dark is-fullheight" id="hero-bg">
+      <!-- Hero head: will stick at the top -->
+      <div class="hero-head">
+        <header class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item">
+<!--                <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo">-->
+                  <span class="title is-5">
+                      GDL Media Agency
+                  </span>
+              </a>
+              <span class="navbar-burger burger" data-target="navbarMenuHeroC">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+            <div id="navbarMenuHeroC" class="navbar-menu">
+              <div class="navbar-end">
+                <a class="navbar-item is-active" style="text-transform: uppercase;">
+                  Home
+                </a>
+                <a class="navbar-item" style="text-transform: uppercase;">
+                  services
+                </a>
+                <a class="navbar-item" style="text-transform: uppercase;">
+                  success story
+                </a>
+                <a class="navbar-item" style="text-transform: uppercase;">
+                  about us
+                </a>
+                <a class="navbar-item" style="text-transform: uppercase;">
+                  team
+                </a>
+                <a class="navbar-item" style="text-transform: uppercase;">
+                  partners
+                </a>
+                <a class="navbar-item" style="text-transform: uppercase;">
+                  contact us
+                </a>
+                <span class="navbar-item">
+                  <a class="button is-black is-inverted">
+<!--
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+-->
+                    <span>Get Proposal</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+
+      <!-- Hero content: will be in the middle -->
+      <div class="hero-body">
+        <div class="container has-text-centered">
+            <img src="img/trans-logo.png" style="width: 190px;"/>
+          <h1 class="title is-1">
+            GDL Media Agency
+          </h1>
+            <h2 class="subtitle is-2">
+                <span class="hero-text-slider w3-animate-opacity">
+                    Think Ads, Think GDL
+                </span>
+                <span class="hero-text-slider w3-animate-opacity">
+                    Be more than Advertisement
+                </span>
+                <span class="hero-text-slider w3-animate-opacity">
+                    Go with us to get right result
+                </span>
+            </h2>                      
+            <a class="button is-large is-dark is-outlined">
+              Get Our Proposal
+            </a>
+        </div>
+      </div>
+
+      <!-- Hero footer: will stick at the bottom -->
+<!--
+      <div class="hero-foot">
+        <nav class="tabs is-boxed is-fullwidth">
+          <div class="container">
+            <ul>
+              <li class="is-active"><a>Overview</a></li>
+              <li><a>Modifiers</a></li>
+              <li><a>Grid</a></li>
+              <li><a>Elements</a></li>
+              <li><a>Components</a></li>
+              <li><a>Layout</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+-->        
+    </section>
+    
+    <!--donw load profile agency -->
+    
+        <nav class="level box">
+            <div class="level-item has-text-centered">
+                <div>
+<!--                    <p class="heading">Tweets</p>-->
+                    <p class="title is-4">
+                        Download Our Agency Profile PDF
+                    </p>
+                </div>
+            </div>
+            
+            <div class="level-item ">
+                <div>
+    <!--            <p class="heading">Following</p>-->
+                    <p class="title">
+                        <a class="button is-large is-dark is-outlined">
+                            Get Our Agency Profile
+                        </a>
+                    </p>
+                </div>
+            </div>
+            
+<!--
+            <div class="level-item has-text-centered">
+            <div>
+            <p class="heading">Followers</p>
+            <p class="title">456K</p>
+            </div>
+            </div>
+            
+            <div class="level-item has-text-centered">
+            <div>
+            <p class="heading">Likes</p>
+            <p class="title">789</p>
+            </div>
+            </div>
+-->
+        </nav>    
+
+    
+<!--
+    <section class="section">
+        <div class="container">
+            <h1 class="title">
+                Hello World
+            </h1>
+            <p class="subtitle">
+                My first website with <strong>Bulma</strong>!
+            </p>
+        </div>
+    </section>
+    
+    
+    <h1>Button Testing</h1>
+    
+    <a class="button">
+      Button
+    </a>
+
+    <a class="button is-primary">
+      Primary button
+    </a>
+
+    <a class="button is-large">
+      Large button
+    </a>
+
+    <a class="button is-loading">
+      Loading button
+    </a>
+    
+    <h1>
+        Column Testing
+    </h1>
+    
+    <div class="columns">
+      <div class="column">1</div>
+      <div class="column">2</div>
+      <div class="column">3</div>
+      <div class="column">4</div>
+      <div class="column">5</div>
+    </div>
+    
+    <h1>Container Testing</h1>
+    <div class="container">
+      <div class="notification">
+        This container is <strong>centered</strong> on desktop.
+      </div>
+    </div>
+    
+    <br/>
+    
+    <div class="container is-fluid">
+      <div class="notification">
+        This container is <strong>fluid</strong>: it will have a 32px gap on either side, on any
+        viewport size.
+      </div>
+    </div>
+    
+    <br/>
+    
+    <div class="container is-widescreen">
+      <div class="notification">
+        This container is <strong>fullwidth</strong> <em>until</em> the <code>$widescreen</code> breakpoint.
+      </div>
+    </div>
+    
+    <br/>
+    
+    <div class="container is-fullhd">
+      <div class="notification">
+        This container is <strong>fullwidth</strong> <em>until</em> the <code>$fullhd</code> breakpoint.
+      </div>
+    </div>
+    
+    <br/>
+    
+-->
+<!-- Section Testing -->
+    
+    
+<!--
+      <section class="section">
+        <div class="container">
+          <h1 class="title">Section</h1>
+          <h2 class="subtitle">
+            A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading
+          </h2>
+        </div>
+      </section>
+-->
+    
+    <img src="img/gdl-home-hero-cover.jpg" />
+    
+    <br/><br/><br/><br/><br/><br/>
+    <br/><br/><br/><br/><br/><br/>
+    <br/><br/><br/><br/><br/><br/>
+    <br/><br/><br/><br/><br/><br/>
+    
+<!-- Footer Section -->
+    
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p>
+            <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+            <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+            is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+          </p>
+        </div>
+      </div>
+    </footer>
+    
+    <script src="js/bulma.js"></script>
+    <script>
+        w3.slideshow(".hero-text-slider", 2000);
+    </script>
+    
+    
+</body>
+
+</html>
